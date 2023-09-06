@@ -5,13 +5,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/logosimetrica.png";
-import {  useNavigate} from "react-router-dom";
+import { Link, useNavigate, } from "react-router-dom";
 import "../navbar/styled.css";
 
 
 const Nabvar = () => {
   const [expanded, setExpanded] = useState(false);
-  // console.log(expanded);
+  console.log(expanded);
 
   const closeMenu = () => {
     setExpanded(expanded ? false : "expanded");
@@ -40,7 +40,7 @@ const Nabvar = () => {
       className=" bg-white p-4  border-b-2 border"
     >
       <Container>
-        <Navbar.Brand  to={"/"}>
+        <Navbar.Brand as={Link} to={"/"}>
           <img className=" w-44 lg:ml-5 xl:ml-5" src={logo} alt="" />
         </Navbar.Brand>
 
@@ -84,16 +84,16 @@ const Nabvar = () => {
         >
           <Nav className=" flex w-full  justify-end gap-10  mt-10 sm:mt-0 md:mt-0 lg:mt-0-md:mt-0  ">
             <Nav.Link
-             
+              as={Link}
               onClick={toggleChange}
-              to={"/home"}
+              to={"/"}
               className="text-black font-poppins text-md   "
             >
               Home
             </Nav.Link>
             <Nav.Link
               onClick={toggleChange}
-              
+              as={Link}
               to={"/nosotros"}
               className="text-black font-poppins text-md "
             >
@@ -105,7 +105,7 @@ const Nabvar = () => {
               className=" mr-0 lg:mr-32-md:mr-32  font-poppins text-md   "
             >
               <NavDropdown.Item
-             
+                as={Link}
                 onClick={toggleChange}
                 to={"/desarrollo"}
                 className="font-poppins text-sm"
@@ -114,7 +114,7 @@ const Nabvar = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item
-    
+                as={Link}
                 onClick={toggleChange}
                 to={"/desarrolloMovil"}
                 className="font-poppins text-sm"
@@ -123,7 +123,7 @@ const Nabvar = () => {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item
-            
+                as={Link}
                 onClick={toggleChange}
                 to={"/branding"}
                 className="font-poppins text-sm"
@@ -131,7 +131,7 @@ const Nabvar = () => {
                 Branding
               </NavDropdown.Item>
             </NavDropdown>
-            <button onClick={goContacto}  className=" bg-btm-color flex content-center items-center justify-center p-2 w-32 text-white rounded-md hover:bg-primary-blue font-poppins text-md">
+            <button onClick={goContacto}   className=" bg-btm-color flex content-center items-center justify-center p-2 w-32 text-white rounded-md hover:bg-primary-blue font-poppins text-md">
               Contacto
             </button>
           </Nav>
