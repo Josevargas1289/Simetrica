@@ -13,7 +13,7 @@ function App() {
       <Nabvar />
       
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/home" element={<Home/>} />
         <Route path="/nosotros" element={<Nosotros/>} />
         <Route path="/desarrollo" element={<Desarrollo/>} />
         <Route path="/desarrolloMovil" element={<DesarrolloMovil/>} />
