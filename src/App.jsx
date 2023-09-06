@@ -1,4 +1,4 @@
-import { Route, Routes,  } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Nabvar from "./components/navbar/Nabvar";
 import Home from "./pages/Home";
 import Nosotros from "./pages/Nosotros";
@@ -9,20 +9,18 @@ import Contacto from "./components/Contacto";
 
 function App() {
   return (
-    <> 
-    
+    <div className=" overflow-y-hidden">
       <Nabvar />
-      
+
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/nosotros" element={<Nosotros/>} />
-        <Route path="/desarrollo" element={<Desarrollo/>} />
-        <Route path="/desarrolloMovil" element={<DesarrolloMovil/>} />
-        <Route path="/branding" element={<Branding/>} />
-        <Route path="/contacto" element={<Contacto/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/desarrollo" element={<Desarrollo />} />
+        <Route path="/desarrolloMovil" element={<DesarrolloMovil />} />
+        <Route path="/branding" element={<Branding />} />
+        <Route path="/contacto" element={<Contacto />} />
       </Routes>
-  
-    </>
+    </div>
   );
 }
 

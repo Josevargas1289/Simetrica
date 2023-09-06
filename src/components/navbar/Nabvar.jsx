@@ -91,14 +91,15 @@ const Nabvar = () => {
             >
               Home
             </Nav.Link>
-            <Nav.Link
+            <Link to={'/nosotros'}>Nosotros</Link>
+            {/* <Nav.Link
               onClick={toggleChange}
               as={Link}
               to={"/nosotros"}
               className="text-black font-poppins text-md "
             >
               Nosotros
-            </Nav.Link>
+            </Nav.Link> */}
             <NavDropdown
               title="Servicios"
               id="collasible-nav-dropdown"
