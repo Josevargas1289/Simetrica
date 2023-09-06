@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import Nosotros from "./pages/Nosotros";
 import Desarrollo from "./pages/DesarrolloWeb";
 import DesarrolloMovil from "./pages/DesarrolloMovil";
-
 import Branding from "./pages/Branding";
 import Contacto from "./components/Contacto";
 
@@ -14,12 +13,12 @@ function App() {
       <Nabvar />
       
       <Routes>
-        <Route path="/" Component={Home} />
-        <Route path="/nosotros" Component={Nosotros} />
-        <Route path="/desarrollo" Component={Desarrollo} />
-        <Route path="/desarrolloMovil" Component={DesarrolloMovil} />
-        <Route path="/branding" Component={Branding} />
-        <Route path="/contacto" Component={Contacto} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/nosotros" element={<Nosotros/>} />
+        <Route path="/desarrollo" element={<Desarrollo/>} />
+        <Route path="/desarrolloMovil" element={<DesarrolloMovil/>} />
+        <Route path="/branding" element={<Branding/>} />
+        <Route path="/contacto" element={<Contacto/>} />
       </Routes>
     </div>
   );
