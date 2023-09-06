@@ -11,7 +11,7 @@ import "../navbar/styled.css";
 
 const Nabvar = () => {
   const [expanded, setExpanded] = useState(false);
-  console.log(expanded);
+  // console.log(expanded);
 
   const closeMenu = () => {
     setExpanded(expanded ? false : "expanded");
