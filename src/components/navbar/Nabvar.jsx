@@ -5,9 +5,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/logosimetrica.png";
-import { Link, useNavigate, } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../navbar/styled.css";
-
 
 const Nabvar = () => {
   const [expanded, setExpanded] = useState(false);
@@ -21,16 +20,13 @@ const Nabvar = () => {
     setExpanded(false);
   };
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
- 
-  const goContacto = () =>{
-    toggleChange()
-    navigate('/contacto')
-    
-  }
+  const goContacto = () => {
+    toggleChange();
+    navigate("/contacto");
+  };
 
- 
   return (
     <Navbar
       expanded={expanded}
@@ -91,15 +87,15 @@ const Nabvar = () => {
             >
               Home
             </Nav.Link>
-            <Link to={'/nosotros'}>Nosotros</Link>
-            {/* <Nav.Link
+
+            <Nav.Link
               onClick={toggleChange}
               as={Link}
               to={"/nosotros"}
               className="text-black font-poppins text-md "
             >
               Nosotros
-            </Nav.Link> */}
+            </Nav.Link>
             <NavDropdown
               title="Servicios"
               id="collasible-nav-dropdown"
@@ -132,7 +128,10 @@ const Nabvar = () => {
                 Branding
               </NavDropdown.Item>
             </NavDropdown>
-            <button onClick={goContacto}   className=" bg-btm-color flex content-center items-center justify-center p-2 w-32 text-white rounded-md hover:bg-primary-blue font-poppins text-md">
+            <button
+              onClick={goContacto}
+              className=" bg-btm-color flex content-center items-center justify-center p-2 w-32 text-white rounded-md hover:bg-primary-blue font-poppins text-md"
+            >
               Contacto
             </button>
           </Nav>
