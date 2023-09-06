@@ -9,7 +9,8 @@ import Contacto from "./components/Contacto";
 
 function App() {
   return (
-    <div className=" overflow-y-hidden">
+    <> 
+    
       <Nabvar />
       
       <Routes>
@@ -20,7 +21,8 @@ function App() {
         <Route path="/branding" element={<Branding/>} />
         <Route path="/contacto" element={<Contacto/>} />
       </Routes>
-    </div>
+  
+    </>
   );
 }
 
