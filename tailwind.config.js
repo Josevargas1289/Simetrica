@@ -11,7 +11,8 @@ export default {
       'color-icon-web': '#EFEAFF',
       'color-icon-branding': '#DAE6FF',
       'color-icon-movil': '#FFE5DA',
-      'bg-contact': '#E8F4FA'
+      'bg-contact': '#E8F4FA',
+      'bg-btn-whatsapp':'#00bb2d'
 
 
     },

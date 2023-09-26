@@ -5,7 +5,8 @@ import Nosotros from "./pages/Nosotros";
 import Desarrollo from "./pages/DesarrolloWeb";
 import DesarrolloMovil from "./pages/DesarrolloMovil";
 import Branding from "./pages/Branding";
-import Contacto from "./components/Contacto";
+import Contacto from "./components/contacto/Contacto";
+
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/branding" element={<Branding />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
+      
     </div>
   );
 }
