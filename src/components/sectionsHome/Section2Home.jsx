@@ -8,12 +8,14 @@ const Section2Home = () => {
     <section className=" flex flex-col  p-4 w-full  justify-center">
       <div className=" mb-10  mt-5 text-center">
         <h3 className=" font-poppins font-bold text-md lg:text-3xl mb-4">
-          Soluciones <span className=" text-happy-bg1 ">Digitales Integrales</span> {" "}
+          Soluciones{" "}
+          <span className=" text-happy-bg1 ">Digitales Integrales</span>{" "}
         </h3>
-        <span className=" font-poppins font-light text-sm  ">
+        <p className=" font-poppins font-light text-sm">
           Desarrollo digital de alto nivel con enfoque en web, móvil y branding
           para impulsar tu éxito en línea.
-        </span>
+        </p>
+      
       </div>
       {/* desarrollo de aplicaciones moviles */}
       <div className=" flex flex-col lg:flex-row justify-center items-center lg:m-10 gap-20">
@@ -28,8 +30,7 @@ const Section2Home = () => {
                 Desarrollo de aplicaciones moviles
               </h3>
               <span className=" text-md text-border-color">
-                Profesionales dedicados exclusivamente  al desarrollo
-                movil.
+                Profesionales dedicados exclusivamente al desarrollo movil.
               </span>
             </div>
           </div>
@@ -64,8 +65,8 @@ const Section2Home = () => {
                 Desarrollo de aplicaciones web
               </h3>
               <span className=" text-md text-border-color">
-                Profesionales pensando en soluciones web  intuitivas y a
-                la medida.
+                Profesionales pensando en soluciones web intuitivas y a la
+                medida.
               </span>
             </div>
           </div>
