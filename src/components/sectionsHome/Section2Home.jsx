@@ -39,7 +39,7 @@ const Section2Home = () => {
               <span className=" text-btm-color">Tecnologías escalables</span>
               {""} y buenas prácticas de programación.
             </h3>
-            <p className=" text-justify mt-3 text-md text-border-color ">
+            <p className=" text-justify mt-3 text-md  ">
               Garantizamos flujos de usuario intuitivos para una experiencia
               excepcional, logrando a través de definición funcional,
               arquitectura, desarrollo y mejora continua. Trabajamos en 4
@@ -75,7 +75,7 @@ const Section2Home = () => {
               <span className=" text-btm-color">Diseño Responsivo</span>
               {""} adaptado a tus necesidades.
             </h3>
-            <p className=" text-justify mt-3 text-md text-border-color ">
+            <p className=" text-justify mt-3 text-md ">
               Descubre un diseño web responsivo, intuitivo y SEO-optimizado. Nos
               comprometemos a brindarte flujos de usuario excepcionales, gracias
               a nuestra enfoque en definición funcional, arquitectura sólida,
@@ -113,7 +113,7 @@ const Section2Home = () => {
               <span className=" text-btm-color">Marcas Digitales</span>
               {""} que brillan en una era moderna.
             </h3>
-            <p className=" text-justify mt-3 text-md text-border-color ">
+            <p className=" text-justify mt-3 text-md  ">
               Explora el mundo del branding y rebranding digital con nosotros.
               Prometemos ofrecerte estrategias de marca excepcionales,
               potenciadas por un diseño web receptivo, intuitivo y optimizado
