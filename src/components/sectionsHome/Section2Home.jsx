@@ -5,10 +5,10 @@ import imgweb from "../../assets/web.png";
 
 const Section2Home = () => {
   return (
-    <section className=" flex flex-col m-5 p-2   justify-center">
+    <section className=" flex flex-col  p-4 w-full  justify-center">
       <div className=" mb-10  mt-5 text-center">
         <h3 className=" font-poppins font-bold text-md lg:text-3xl mb-4">
-          Soluciones Digitales Integrales{" "}
+          Soluciones <span className=" text-happy-bg1 ">Digitales Integrales</span> {" "}
         </h3>
         <span className=" font-poppins font-light text-sm  ">
           Desarrollo digital de alto nivel con enfoque en web, móvil y branding
@@ -17,10 +17,10 @@ const Section2Home = () => {
       </div>
       {/* desarrollo de aplicaciones moviles */}
       <div className=" flex flex-col lg:flex-row justify-center items-center lg:m-10 gap-20">
-        <div className=" w-full m-10  ">
-          <div className=" flex justify-start items-center gap-2 mb-4   ">
-            <span className=" w-14 h-14 bg-happy-bg rounded-full flex items-center justify-center ">
-              <img className=" w-5" src={happy} alt="" />
+        <div className=" w-full  ">
+          <div className=" flex justify-start items-center gap-2 mb-4    ">
+            <span className=" p-3 bg-happy-bg rounded-full flex items-center justify-center ">
+              <img className=" w-8" src={happy} alt="" />
             </span>
 
             <div className=" flex flex-col gap-2">
@@ -28,7 +28,7 @@ const Section2Home = () => {
                 Desarrollo de aplicaciones moviles
               </h3>
               <span className=" text-md text-border-color">
-                Profesionales dedicados exclusivamente <br /> al desarrollo
+                Profesionales dedicados exclusivamente  al desarrollo
                 movil.
               </span>
             </div>
@@ -55,8 +55,8 @@ const Section2Home = () => {
       <div className=" flex flex-col lg:flex-row justify-center items-center  lg:m-10 gap-20">
         <div className=" w-full m-10  lg:order-1  ">
           <div className=" flex justify-start items-center gap-2 mb-4   ">
-            <span className=" w-16 h-16 bg-happy-bg1 rounded-full flex items-center justify-center ">
-              <img className=" w-5" src={happy} alt="" />
+            <span className=" p-3 bg-happy-bg1 rounded-full flex items-center justify-center ">
+              <img className=" w-8" src={happy} alt="" />
             </span>
 
             <div className=" flex flex-col gap-2">
@@ -64,7 +64,7 @@ const Section2Home = () => {
                 Desarrollo de aplicaciones web
               </h3>
               <span className=" text-md text-border-color">
-                Profesionales pensando en soluciones web <br /> intuitivas y a
+                Profesionales pensando en soluciones web  intuitivas y a
                 la medida.
               </span>
             </div>
@@ -94,8 +94,8 @@ const Section2Home = () => {
       <div className=" flex flex-col lg:flex-row justify-center items-center lg:m-10 gap-20">
         <div className=" w-full m-10  ">
           <div className=" flex justify-start items-center gap-2 mb-4   ">
-            <span className=" w-16 h-16 bg-happy-bg2 rounded-full flex items-center justify-center ">
-              <img className=" w-5" src={happy} alt="" />
+            <span className=" p-3 bg-happy-bg2 rounded-full flex items-center justify-center ">
+              <img className=" w-8" src={happy} alt="" />
             </span>
 
             <div className=" flex flex-col gap-2">
