@@ -5,7 +5,7 @@ import imgweb from "../../assets/web.png";
 
 const Section2Home = () => {
   return (
-    <section className=" flex flex-col m-10   justify-center">
+    <section className=" flex flex-col m-5 p-2   justify-center">
       <div className=" mb-10  mt-5 text-center">
         <h3 className=" font-poppins font-bold text-md lg:text-3xl mb-4">
           Soluciones Digitales Integrales{" "}
@@ -19,7 +19,7 @@ const Section2Home = () => {
       <div className=" flex flex-col lg:flex-row justify-center items-center lg:m-10 gap-20">
         <div className=" w-full m-10  ">
           <div className=" flex justify-start items-center gap-2 mb-4   ">
-            <span className=" w-16 h-16 bg-happy-bg rounded-full flex items-center justify-center ">
+            <span className=" w-14 h-14 bg-happy-bg rounded-full flex items-center justify-center ">
               <img className=" w-5" src={happy} alt="" />
             </span>
 
