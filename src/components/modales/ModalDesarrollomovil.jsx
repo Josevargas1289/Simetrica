@@ -31,15 +31,7 @@ const ModalDesarrollomovil = () => {
       >
         <p>
           {" "}
-          En Simétrica Dev Studio, nuestro servicio de desarrollo móvil es una
-          puerta a la innovación digital. Transformamos tus ideas en
-          aplicaciones móviles de vanguardia, aprovechando la tecnología más
-          avanzada para llevar tu negocio al siguiente nivel. Estamos
-          comprometidos en brindarte soluciones móviles a medida que no solo
-          impresionarán a tus usuarios, sino que también impulsarán el
-          crecimiento de tu empresa en el mundo móvil. Confía en nosotros para
-          dar vida a tu visión móvil y alcanzar nuevas alturas en el mercado
-          digital.
+          En Simétrica Dev Studio, transformamos tus ideas en aplicaciones móviles de vanguardia, impulsando el crecimiento de tu negocio en el mundo móvil con soluciones personalizadas e innovadoras.
         </p>
         <div className=" mt-2 flex justify-end">
           <button

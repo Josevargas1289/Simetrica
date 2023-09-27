@@ -16,25 +16,18 @@ const Section1Home = () => {
 
   return (
     <div className="border-b border-border-color mb-6 font-poppins  ">
-      <div className=" flex-col lg:flex-row  xl:flex  p-10   lg:p-24 xl:p-24 justify-center mt-36 font-roboto items-center ">
-        <div className=" flex-col  ">
+      <div className=" flex-col lg:flex-row  xl:flex  p-10   lg:p-24 xl:p-24 justify-center mt-32 font-roboto items-center ">
+        <div className=" flex-col -mt-0 lg:-mt-32 xl:-mt-32  ">
           <div className=" w-full   ">
             <h3 className=" font-poppins font-semibold text-md lg:text-3xl">
-              Experiencia en el desarrollo de{" "}
-              <span className=" text-btm-color">sitios web</span> y{" "}
-              <span className=" text-btm-color">aplicaciones móviles</span> de
-              alta calidad, así como en la creación de{" "}
-              <span className=" text-btm-color">branding impactante.</span>
+              Expertos en desarrollo{" "}
+              <span className=" text-btm-color">web</span>,{" "}
+              <span className=" text-btm-color">aplicaciones móviles</span> y{" "}
+              <span className=" text-btm-color">branding</span> impactante
             </h3>
             <br />
             <p className=" font-poppins font-light text-sm">
-              Bienvenido a Simétrica Dev Studio, tu socio estratégico en diseño
-              web y móvil. Nos enorgullecemos de ofrecer soluciones creativas y
-              personalizadas para pequeñas y medianas empresas que desean
-              destacarse en el mundo digital. Nuestro enfoque va más allá de la
-              creación de sitios web y aplicaciones móviles; estamos
-              comprometidos en potenciar marcas a través de nuestro servicio de
-              rebranding especializado.
+              Bienvenido a Simétrica Dev Studio, Tu socio estratégico en diseño web y móvil, ofreciendo soluciones creativas y personalizadas para destacar en el mundo digital, incluyendo servicios especializados en branding y rebranding.
             </p>
           </div>
 
@@ -67,12 +60,12 @@ const Section1Home = () => {
         </div>
 
         <img
-          className=" w-6 absolute right-0 bottom-20  lg:right-0 lg:top-48 xl:right-0 xl:top-48 md:w-10 lg:w-10 xl:w-10"
+          className=" w-6 absolute right-0 bottom-96  lg:right-0 lg:top-48 xl:right-0 xl:top-48 md:w-10 lg:w-10 xl:w-10"
           src={Vector1}
           alt=""
         />
         <img
-          className=" w-6 absolute left-0 bottom-0  lg:left-0 lg:top-80 xl:left-0 xl:top-80 md:w-10 lg:w-10 xl:w-10"
+          className=" w-6 absolute left-0 bottom-48  lg:left-0 lg:top-80 xl:left-0 xl:top-80 md:w-10 lg:w-10 xl:w-10"
           src={Vector2}
           alt=""
         />
@@ -98,7 +91,7 @@ const Section1Home = () => {
           </div>
         </div>
         <div className=" flex items-center justify-center gap-3 mb-3">
-          <ModalDesarrollomovil/>
+          <ModalDesarrollomovil />
           <div>
             <h1 className=" text-md text-black font-bold">Movil</h1>
             <span className=" text-xs text-border-color">Android & IOS</span>

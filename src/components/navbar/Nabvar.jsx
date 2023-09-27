@@ -33,7 +33,7 @@ const Nabvar = () => {
       fixed="top"
       collapseOnSelect
       expand="lg"
-      className=" bg-white p-4  border-b-2 border"
+      className=" bg-white p-3  border-b-2 border"
     >
       <Container>
         <Navbar.Brand as={Link} to={"/"}>
