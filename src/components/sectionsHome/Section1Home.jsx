@@ -60,12 +60,12 @@ const Section1Home = () => {
         </div>
 
         <img
-          className=" w-6 absolute right-0 bottom-96  lg:right-0 lg:top-48 xl:right-0 xl:top-48 md:w-10 lg:w-10 xl:w-10"
+          className=" w-6 absolute hidden lg:block  lg:right-0 lg:top-48 xl:right-0 xl:top-48 md:w-10 lg:w-10 xl:w-10"
           src={Vector1}
           alt=""
         />
         <img
-          className=" w-6 absolute left-0 bottom-48  lg:left-0 lg:top-80 xl:left-0 xl:top-80 md:w-10 lg:w-10 xl:w-10"
+          className=" w-6 absolute hidden lg:block  lg:left-0 lg:top-80 xl:left-0 xl:top-80 md:w-10 lg:w-10 xl:w-10"
           src={Vector2}
           alt=""
         />

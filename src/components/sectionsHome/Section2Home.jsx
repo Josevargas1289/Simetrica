@@ -96,7 +96,7 @@ const Section2Home = () => {
         <div className=" w-full m-10  ">
           <div className=" flex justify-start items-center gap-2 mb-4   ">
             <span className=" p-3 bg-happy-bg2 rounded-full flex items-center justify-center ">
-              <img className=" w-8" src={happy} alt="" />
+              <img className=" w-6" src={happy} alt="" />
             </span>
 
             <div className=" flex flex-col gap-2">
