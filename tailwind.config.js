@@ -3,9 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.jsx"],
   theme: {
     colors: {
-      fondo: "#060B27",
+      "fondo": "#060B27",
       "primary-blue": "#42a5f5",
-      navBarColor: "#e3f2fd",
+      "navBarColor": "#e3f2fd",
       "btm-color": "#1090CB",
       "border-color": "#bdc4c7",
       "color-icon-web": "#EFEAFF",
